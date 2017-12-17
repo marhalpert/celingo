@@ -1174,6 +1174,12 @@ canvas {
   position: absolute
 }
 
+.absolute-desktop {
+  @media (min-width:40.06rem) {
+    position: absolute
+  }
+}
+
 .fixed {
   position: fixed
 }
